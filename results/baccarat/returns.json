@@ -1,0 +1,621 @@
+{
+ "generated_utc": "2026-11-17T08:32:46Z",
+ "command": "python3 src/baccarat_sim.py 40000000 40000000 2",
+ "runtime_seconds": {
+  "exact_4_shoes": 8.0,
+  "bc_deal": 525.7,
+  "control": 64.1
+ },
+ "assumptions": [
+  "payouts: the server's odds; a tie pays a player or banker bet 0.9908 of the stake (paid on the live tie rounds of 16 Nov)",
+  "pair = first two cards of that hand have the same rank (as on all 150 live rounds of 16 Nov)",
+  "the BC deal is the published verifier's deal, which the live game matched on all 150 rounds of 16 Nov"
+ ],
+ "real_paytable": "server_98",
+ "real_paytable_check": "equal to the odds in the init answers of evidence/baccarat-2026-11-16/game-frames.json",
+ "paytables": {
+  "server_98": "the odds BC's server sent for BaccaratSingle98 on 16 Nov 2026 (answer to init, namespace /g/baccarats/98, evidence/baccarat-2026-11-16/game-frames.json): playerBigBankerOdds 1.9817, bankerBigPlayerOdds 1.9322, tieOdds 8.918, pairOdds 11.8907, playerTieOdds = bankerTieOdds = 0.9908; each paid on the live rounds"
+ },
+ "exact_fair_shoe": {
+  "1": {
+   "player": {
+    "fraction": "51161519/114516675",
+    "p": 0.44676043030414564
+   },
+   "banker": {
+    "fraction": "10526926/22903335",
+    "p": 0.4596241551721616
+   },
+   "tie": {
+    "fraction": "10720526/114516675",
+    "p": 0.09361541452369272
+   },
+   "player_third": {
+    "fraction": "10449/20825",
+    "p": 0.5017527010804321
+   },
+   "banker_third": {
+    "fraction": "2108807/4873050",
+    "p": 0.4327488944295667
+   },
+   "natural": {
+    "fraction": "279722/812175",
+    "p": 0.3444109951672977
+   },
+   "player_pair": {
+    "fraction": "1/17",
+    "p": 0.058823529411764705
+   },
+   "banker_pair": {
+    "fraction": "1/17",
+    "p": 0.058823529411764705
+   }
+  },
+  "2": {
+   "player": {
+    "fraction": "7622136488/17070542775",
+    "p": 0.4465081508224041
+   },
+   "banker": {
+    "fraction": "7836620752/17070542775",
+    "p": 0.45907273455164055
+   },
+   "tie": {
+    "fraction": "107452369/1138036185",
+    "p": 0.09441911462595541
+   },
+   "player_third": {
+    "fraction": "1155715/2299063",
+    "p": 0.5026895739699173
+   },
+   "banker_third": {
+    "fraction": "74879533/172429725",
+    "p": 0.434261163497187
+   },
+   "natural": {
+    "fraction": "2370202/6897189",
+    "p": 0.34364753524950525
+   },
+   "player_pair": {
+    "fraction": "7/103",
+    "p": 0.06796116504854369
+   },
+   "banker_pair": {
+    "fraction": "7/103",
+    "p": 0.06796116504854369
+   }
+  },
+  "6": {
+   "player": {
+    "fraction": "680938355432/1525814595305",
+    "p": 0.4462785698388768
+   },
+   "banker": {
+    "fraction": "139963802512/305162919061",
+    "p": 0.4586527188253242
+   },
+   "tie": {
+    "fraction": "145057227313/1525814595305",
+    "p": 0.09506871133579899
+   },
+   "player_third": {
+    "fraction": "32488347/64546495",
+    "p": 0.5033324737462507
+   },
+   "banker_third": {
+    "fraction": "2163364683/4970080115",
+    "p": 0.4352776279140522
+   },
+   "natural": {
+    "fraction": "22146974/64546495",
+    "p": 0.3431166014514034
+   },
+   "player_pair": {
+    "fraction": "23/311",
+    "p": 0.07395498392282958
+   },
+   "banker_pair": {
+    "fraction": "23/311",
+    "p": 0.07395498392282958
+   }
+  },
+  "8": {
+   "player": {
+    "fraction": "8712962041376/19524993263685",
+    "p": 0.44624660934359683
+   },
+   "banker": {
+    "fraction": "8954111587648/19524993263685",
+    "p": 0.458597422632763
+   },
+   "tie": {
+    "fraction": "619306544887/6508331087895",
+    "p": 0.0951559680236402
+   },
+   "player_third": {
+    "fraction": "15479099/30748263",
+    "p": 0.50341377007215
+   },
+   "banker_third": {
+    "fraction": "4136876519/9501213267",
+    "p": 0.4354050796195016
+   },
+   "natural": {
+    "fraction": "158222458/461223945",
+    "p": 0.34304909733166605
+   },
+   "player_pair": {
+    "fraction": "31/415",
+    "p": 0.0746987951807229
+   },
+   "banker_pair": {
+    "fraction": "31/415",
+    "p": 0.0746987951807229
+   }
+  }
+ },
+ "exact_fair_shoe_returns": {
+  "1": {
+   "server_98": {
+    "player": {
+     "multiplier": 1.9817,
+     "return": 0.9780992974438001
+    },
+    "banker": {
+     "multiplier": 1.9322,
+     "return": 0.9808399453337253
+    },
+    "tie": {
+     "multiplier": 8.918,
+     "return": 0.8348622667222916
+    },
+    "player_pair": {
+     "multiplier": 11.8907,
+     "return": 0.6994529411764706
+    },
+    "banker_pair": {
+     "multiplier": 11.8907,
+     "return": 0.6994529411764706
+    }
+   }
+  },
+  "2": {
+   "server_98": {
+    "player": {
+     "multiplier": 1.9817,
+     "return": 0.9783956612561548
+    },
+    "banker": {
+     "multiplier": 1.9322,
+     "return": 0.9805707964720765
+    },
+    "tie": {
+     "multiplier": 8.918,
+     "return": 0.8420296642342703
+    },
+    "player_pair": {
+     "multiplier": 11.8907,
+     "return": 0.8081058252427185
+    },
+    "banker_pair": {
+     "multiplier": 11.8907,
+     "return": 0.8081058252427185
+    }
+   }
+  },
+  "6": {
+   "server_98": {
+    "player": {
+     "multiplier": 1.9817,
+     "return": 0.9785843210412118
+    },
+    "banker": {
+     "multiplier": 1.9322,
+     "return": 0.9804028625058011
+    },
+    "tie": {
+     "multiplier": 8.918,
+     "return": 0.8478227676926553
+    },
+    "player_pair": {
+     "multiplier": 11.8907,
+     "return": 0.8793765273311898
+    },
+    "banker_pair": {
+     "multiplier": 11.8907,
+     "return": 0.8793765273311898
+    }
+   }
+  },
+  "8": {
+   "server_98": {
+    "player": {
+     "multiplier": 1.9817,
+     "return": 0.9786074388540286
+    },
+    "banker": {
+     "multiplier": 1.9322,
+     "return": 0.9803824731288473
+    },
+    "tie": {
+     "multiplier": 8.918,
+     "return": 0.8486009228348231
+    },
+    "player_pair": {
+     "multiplier": 11.8907,
+     "return": 0.8882209638554217
+    },
+    "banker_pair": {
+     "multiplier": 11.8907,
+     "return": 0.8882209638554217
+    }
+   }
+  }
+ },
+ "bc_deal_simulated": {
+  "rounds": 40000000,
+  "batches": 40,
+  "rounds_per_batch": 1000000,
+  "player": {
+   "count": 17923206,
+   "p": 0.44808015,
+   "se": 7.862956332957367e-05,
+   "ci95": [
+    0.44792603605587406,
+    0.44823426394412597
+   ],
+   "se_from_batches": 7.934055572058535e-05
+  },
+  "banker": {
+   "count": 18307877,
+   "p": 0.457696925,
+   "se": 7.87734806019044e-05,
+   "ci95": [
+    0.4575425289780202,
+    0.45785132102197973
+   ],
+   "se_from_batches": 8.278921634457485e-05
+  },
+  "tie": {
+   "count": 3768917,
+   "p": 0.094222925,
+   "se": 4.6191169449485787e-05,
+   "ci95": [
+    0.09413239030787901,
+    0.09431345969212099
+   ],
+   "se_from_batches": 3.5059334093095356e-05
+  },
+  "player_pair": {
+   "count": 2594802,
+   "p": 0.06487005,
+   "se": 3.894288337199671e-05,
+   "ci95": [
+    0.06479372194859088,
+    0.06494637805140911
+   ],
+   "se_from_batches": 4.026349033362809e-05
+  },
+  "banker_pair": {
+   "count": 2737560,
+   "p": 0.068439,
+   "se": 3.992339642333803e-05,
+   "ci95": [
+    0.06836075014301025,
+    0.06851724985698975
+   ],
+   "se_from_batches": 4.856939259900102e-05
+  },
+  "player_third": {
+   "count": 20089488,
+   "p": 0.5022372,
+   "se": 7.905615013017015e-05,
+   "ci95": [
+    0.5020822499457449,
+    0.5023921500542552
+   ],
+   "se_from_batches": 8.236840475913025e-05
+  },
+  "banker_third": {
+   "count": 17325149,
+   "p": 0.433128725,
+   "se": 7.834670263959332e-05,
+   "ci95": [
+    0.4329751654628264,
+    0.4332822845371736
+   ],
+   "se_from_batches": 8.467309677405019e-05
+  }
+ },
+ "bc_deal_returns": {
+  "server_98": {
+   "player": {
+    "multiplier": 1.9817,
+    "return": 0.9813165073450001,
+    "se": 0.00014909613519488156,
+    "ci95": [
+     0.9810242789200181,
+     0.9816087357699821
+    ]
+   },
+   "banker": {
+    "multiplier": 1.9322,
+    "return": 0.977718072575,
+    "se": 0.00014537269535931736,
+    "ci95": [
+     0.9774331420920958,
+     0.9780030030579042
+    ]
+   },
+   "tie": {
+    "multiplier": 8.918,
+    "return": 0.8402800451499999,
+    "se": 0.0004119328491505143,
+    "ci95": [
+     0.8394726567656648,
+     0.8410874335343349
+    ]
+   },
+   "player_pair": {
+    "multiplier": 11.8907,
+    "return": 0.771350303535,
+    "se": 0.00046305814331140124,
+    "ci95": [
+     0.7704427095741097,
+     0.7722578974958904
+    ]
+   },
+   "banker_pair": {
+    "multiplier": 11.8907,
+    "return": 0.8137876173,
+    "se": 0.0004747171298509856,
+    "ci95": [
+     0.8128571717254921,
+     0.814718062874508
+    ]
+   }
+  }
+ },
+ "control_uniform_2_decks": {
+  "rounds": 40000000,
+  "batches": 40,
+  "rounds_per_batch": 1000000,
+  "player": {
+   "count": 17865837,
+   "p": 0.446645925,
+   "se": 7.860555684569863e-05,
+   "ci95": [
+    0.44649185810858244,
+    0.44679999189141756
+   ],
+   "se_from_batches": 9.255180384104131e-05
+  },
+  "banker": {
+   "count": 18360220,
+   "p": 0.4590055,
+   "se": 7.879077531185837e-05,
+   "ci95": [
+    0.4588510700803888,
+    0.45915992991961124
+   ],
+   "se_from_batches": 8.292673627813616e-05
+  },
+  "tie": {
+   "count": 3773943,
+   "p": 0.094348575,
+   "se": 4.6218751983223585e-05,
+   "ci95": [
+    0.09425798624611288,
+    0.09443916375388713
+   ],
+   "se_from_batches": 5.055335956651695e-05
+  },
+  "player_pair": {
+   "count": 2716952,
+   "p": 0.0679238,
+   "se": 3.978384012182585e-05,
+   "ci95": [
+    0.06784582367336123,
+    0.06800177632663879
+   ],
+   "se_from_batches": 4.1316697437954715e-05
+  },
+  "banker_pair": {
+   "count": 2720189,
+   "p": 0.068004725,
+   "se": 3.980580434361124e-05,
+   "ci95": [
+    0.06792670562348653,
+    0.06808274437651347
+   ],
+   "se_from_batches": 4.8560298064127656e-05
+  },
+  "player_third": {
+   "count": 20104850,
+   "p": 0.50262125,
+   "se": 7.905585510391332e-05,
+   "ci95": [
+    0.5024663005239963,
+    0.5027761994760037
+   ],
+   "se_from_batches": 8.079473635749391e-05
+  },
+  "banker_third": {
+   "count": 17370788,
+   "p": 0.4342697,
+   "se": 7.837083763459307e-05,
+   "ci95": [
+    0.4341160931582362,
+    0.4344233068417638
+   ],
+   "se_from_batches": 8.351039548371298e-05
+  }
+ },
+ "control_returns": {
+  "server_98": {
+   "player": {
+    "multiplier": 1.9817,
+    "return": 0.9785987976825,
+    "se": 0.00014908082837856589,
+    "ci95": [
+     0.9783065992588781,
+     0.978890996106122
+    ]
+   },
+   "banker": {
+    "multiplier": 1.9322,
+    "return": 0.98037099521,
+    "se": 0.0001453567113927804,
+    "ci95": [
+     0.9800860960556702,
+     0.9806558943643299
+    ]
+   },
+   "tie": {
+    "multiplier": 8.918,
+    "return": 0.8414005918499999,
+    "se": 0.000412178830186388,
+    "ci95": [
+     0.8405927213428346,
+     0.8422084623571653
+    ]
+   },
+   "player_pair": {
+    "multiplier": 11.8907,
+    "return": 0.8076615286600001,
+    "se": 0.0004730577077365947,
+    "ci95": [
+     0.8067343355528364,
+     0.8085887217671638
+    ]
+   },
+   "banker_pair": {
+    "multiplier": 11.8907,
+    "return": 0.8086237835575001,
+    "se": 0.0004733188777085782,
+    "ci95": [
+     0.8076960785571913,
+     0.8095514885578089
+    ]
+   }
+  }
+ },
+ "control_agreement_rule": {
+  "rule": "each control frequency within 3 SE of the exact 2-deck value",
+  "bets": {
+   "player": {
+    "exact": 0.4465081508224041,
+    "control": 0.446645925,
+    "z": 1.7527804173974768,
+    "within_3_se": true
+   },
+   "banker": {
+    "exact": 0.45907273455164055,
+    "control": 0.4590055,
+    "z": -0.8533207818061178,
+    "within_3_se": true
+   },
+   "tie": {
+    "exact": 0.09441911462595541,
+    "control": 0.094348575,
+    "z": -1.5257014631972783,
+    "within_3_se": true
+   },
+   "player_pair": {
+    "exact": 0.06796116504854369,
+    "control": 0.0679238,
+    "z": -0.9389622551872097,
+    "within_3_se": true
+   },
+   "banker_pair": {
+    "exact": 0.06796116504854369,
+    "control": 0.068004725,
+    "z": 1.0946366149492008,
+    "within_3_se": true
+   }
+  },
+  "result": "PASS"
+ },
+ "per_bet_table_real_payouts": {
+  "player": {
+   "pays": 1.9817,
+   "exact_2_deck_return": 0.9783956612561548,
+   "bc_deal_return": 0.9813165073450001,
+   "bc_deal_ci95": [
+    0.9810242789200181,
+    0.9816087357699821
+   ],
+   "control_return": 0.9785987976825,
+   "control_ci95": [
+    0.9783065992588781,
+    0.978890996106122
+   ],
+   "bc_minus_exact_points": 0.29208460888452414,
+   "exact_inside_bc_ci95": false
+  },
+  "banker": {
+   "pays": 1.9322,
+   "exact_2_deck_return": 0.9805707964720765,
+   "bc_deal_return": 0.977718072575,
+   "bc_deal_ci95": [
+    0.9774331420920958,
+    0.9780030030579042
+   ],
+   "control_return": 0.98037099521,
+   "control_ci95": [
+    0.9800860960556702,
+    0.9806558943643299
+   ],
+   "bc_minus_exact_points": -0.285272389707647,
+   "exact_inside_bc_ci95": false
+  },
+  "tie": {
+   "pays": 8.918,
+   "exact_2_deck_return": 0.8420296642342703,
+   "bc_deal_return": 0.8402800451499999,
+   "bc_deal_ci95": [
+    0.8394726567656648,
+    0.8410874335343349
+   ],
+   "control_return": 0.8414005918499999,
+   "control_ci95": [
+    0.8405927213428346,
+    0.8422084623571653
+   ],
+   "bc_minus_exact_points": -0.1749619084270404,
+   "exact_inside_bc_ci95": false
+  },
+  "player_pair": {
+   "pays": 11.8907,
+   "exact_2_deck_return": 0.8081058252427185,
+   "bc_deal_return": 0.771350303535,
+   "bc_deal_ci95": [
+    0.7704427095741097,
+    0.7722578974958904
+   ],
+   "control_return": 0.8076615286600001,
+   "control_ci95": [
+    0.8067343355528364,
+    0.8085887217671638
+   ],
+   "bc_minus_exact_points": -3.6755521707718453,
+   "exact_inside_bc_ci95": false
+  },
+  "banker_pair": {
+   "pays": 11.8907,
+   "exact_2_deck_return": 0.8081058252427185,
+   "bc_deal_return": 0.8137876173,
+   "bc_deal_ci95": [
+    0.8128571717254921,
+    0.814718062874508
+   ],
+   "control_return": 0.8086237835575001,
+   "control_ci95": [
+    0.8076960785571913,
+    0.8095514885578089
+   ],
+   "bc_minus_exact_points": 0.5681792057281587,
+   "exact_inside_bc_ci95": false
+  }
+ }
+}

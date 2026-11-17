@@ -1,0 +1,29 @@
+{
+  "requested_url": "https://bc.game/modules/games/assets/GamePageData-BHVZh_Si.js",
+  "retrieved_utc": "2026-11-07T15:27:05.630426+00:00",
+  "status": 200,
+  "final_url": "https://bc.game/modules/games/assets/GamePageData-BHVZh_Si.js",
+  "headers": {
+    "Date": "Sat, 07 Nov 2026 15:27:06 GMT",
+    "Content-Type": "text/javascript",
+    "Content-Length": "771014",
+    "Connection": "close",
+    "CF-Ray": "a56d5c336da5a226-YYZ",
+    "CF-Cache-Status": "HIT",
+    "Accept-Ranges": "bytes",
+    "Age": "106293",
+    "Cache-Control": "public, max-age=31556952, immutable",
+    "ETag": "\"ea3c7da0cbc8242425e96fe367df545f\"",
+    "Last-Modified": "Fri, 06 Nov 2026 09:54:22 GMT",
+    "Server": "cloudflare",
+    "Vary": "accept-encoding",
+    "x-amz-id-2": "BdCo7myOqvjARXOg5/SGn8/E+dLhni0CVx5SZWU3HwpWJHvyAPUDTIlv0P8Bp3hCJde/VKnqoFxkKSyfpNS/9Nm2B9/one+M",
+    "x-amz-request-id": "8GZVDK4SDX4N4K0X",
+    "x-amz-server-side-encryption": "AES256",
+    "Strict-Transport-Security": "max-age=15552000; includeSubDomains; preload",
+    "X-Content-Type-Options": "nosniff",
+    "Server-Timing": "cfCacheStatus;desc=\"HIT\""
+  },
+  "sha256": "41c73ea97a45f8ca7b7ff4726e2a126164e93523cf309b0c43e9987ecf22c114",
+  "bytes": 771014
+}

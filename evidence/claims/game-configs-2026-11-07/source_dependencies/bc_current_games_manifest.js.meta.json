@@ -1,0 +1,29 @@
+{
+  "requested_url": "https://bc.game/modules/games/assets/manifest-zRTBrycr.js",
+  "retrieved_utc": "2026-11-07T15:26:25.326703+00:00",
+  "status": 200,
+  "final_url": "https://bc.game/modules/games/assets/manifest-zRTBrycr.js",
+  "headers": {
+    "Date": "Sat, 07 Nov 2026 15:26:26 GMT",
+    "Content-Type": "text/javascript",
+    "Content-Length": "241418",
+    "Connection": "close",
+    "CF-Ray": "a56d5b38bbbd1185-YYZ",
+    "CF-Cache-Status": "HIT",
+    "Accept-Ranges": "bytes",
+    "Age": "106255",
+    "Cache-Control": "public, max-age=31556952, immutable",
+    "ETag": "\"985d45e91cbaa364a464bb2ff04dde71\"",
+    "Last-Modified": "Fri, 06 Nov 2026 09:54:27 GMT",
+    "Server": "cloudflare",
+    "Vary": "accept-encoding",
+    "x-amz-id-2": "EFtjqZB04VqORHrd5GYf6owAg3UnJMuO4DX6SbuB5FOEyWmteYkHYCf45xfEDiYG3hnRQYPM170=",
+    "x-amz-request-id": "00HGQANZDS3E3H3X",
+    "x-amz-server-side-encryption": "AES256",
+    "Strict-Transport-Security": "max-age=15552000; includeSubDomains; preload",
+    "X-Content-Type-Options": "nosniff",
+    "Server-Timing": "cfCacheStatus;desc=\"HIT\""
+  },
+  "sha256": "7d72ad13a4c6eb6fe1609d879119284f8368a90391ec23769a68fb60ff2447af",
+  "bytes": 241418
+}

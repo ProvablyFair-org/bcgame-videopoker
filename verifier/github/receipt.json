@@ -1,0 +1,106 @@
+{
+  "what": "GitHub's own records of who publishes BC's video poker verifier and when its card list changed, read on 17 Nov 2026 from GitHub's public API and from GH Archive (the hourly record of GitHub's public events, https://www.gharchive.org). Push times and fork dates are set by GitHub's servers when the push or fork happens; a commit's own date is set by whoever makes it. checks/check_history.py tests these records against verifier/versions/; checks/check_verifier_history_online.js reads them again from GitHub and GH Archive.",
+  "read_on": "2026-11-17",
+  "repository": {
+    "id": 218674280,
+    "name": "bc-game-project/verify",
+    "name_in_2019_2020_events": "BCSNProject/verify",
+    "created_at": "2019-10-31T03:09:55Z",
+    "archived": true,
+    "archived_on": "2022-05-13",
+    "source": "https://api.github.com/repositories/218674280"
+  },
+  "owner": {
+    "id": 34807143,
+    "login": "bc-game-project",
+    "login_in_2019_2020_events": "BCSNProject",
+    "name": "bcgame",
+    "created_at": "2017-12-24T08:10:43Z",
+    "source": "https://api.github.com/organizations/34807143"
+  },
+  "bc_forum_github_link": {
+    "url": "https://github.com/BCSNProject/bcgame-crash/",
+    "seen_in": "the footer of BC's forum, archive.today copy https://archive.ph/mAgrj (16 Nov 2026), excerpt in bc-forum-footer_archive.ph-mAgrj.txt",
+    "github_now_serves": "bc-game-project/bcgame-crash",
+    "repository_id": 219919069,
+    "owner_id": 34807143,
+    "source": "https://api.github.com/repos/BCSNProject/bcgame-crash"
+  },
+  "pushing_account": {
+    "id": 34806974,
+    "login": "bcgameProject",
+    "login_in_2019_2020_events": "bccasinocode",
+    "website": "https://bc.game",
+    "created_at": "2017-12-24T07:59:27Z",
+    "source": "https://api.github.com/user/34806974"
+  },
+  "successor": {
+    "name": "bcgame-project/verify",
+    "created_at": "2022-05-13T12:40:12Z",
+    "note": "created the day bc-game-project/verify was archived; bcgame-project.github.io/verify/ is where BC's game code sent players in 2022 and 2025 (verifier/links/)",
+    "source": "https://api.github.com/repos/bcgame-project/verify"
+  },
+  "push_events": [
+    {
+      "gharchive_file": "https://data.gharchive.org/2019-11-14-9.json.gz",
+      "event_id": "10860858901",
+      "created_at": "2019-11-14T09:55:28Z",
+      "before": "380f4f2169b944b3a72b8d3cca52df5292a377a2",
+      "head": "385651dc485d00b44aed498899bfff4f5b39db36",
+      "head_commit_date": "2019-11-14T09:55:20Z",
+      "what": "the first video poker verifier, cards in suit order"
+    },
+    {
+      "gharchive_file": "https://data.gharchive.org/2020-02-10-12.json.gz",
+      "event_id": "11477558059",
+      "created_at": "2020-02-10T12:22:12Z",
+      "before": "c41b3e2f986969bca4d11ac938a183304fdc2889",
+      "head": "c835cd1f049d5863a2df02a04374cf5578b529cd",
+      "head_commit_date": "2020-02-10T12:22:03Z",
+      "what": "an update of another game's page; the video poker page is still the suit-order version"
+    },
+    {
+      "gharchive_file": "https://data.gharchive.org/2020-05-21-8.json.gz",
+      "event_id": "12400943320",
+      "created_at": "2020-05-21T08:53:13Z",
+      "before": "cb2be877a5d52bd347558af80edd3c0a5086321a",
+      "head": "14ed3f61d29beaf3ae1016102e6f97d0ac765819",
+      "head_commit_date": "2020-05-21T08:53:04Z",
+      "what": "the head before this push is the 8 Apr 2020 commit that swapped in the current card list"
+    },
+    {
+      "gharchive_file": "https://data.gharchive.org/2020-05-28-7.json.gz",
+      "event_id": "12461508583",
+      "created_at": "2020-05-28T07:14:23Z",
+      "before": "14ed3f61d29beaf3ae1016102e6f97d0ac765819",
+      "head": "4e6e6e01fa5d3ede403eab2169b1cf2acb9c40ca",
+      "head_commit_date": "2020-05-28T07:13:53Z",
+      "what": "the next push"
+    }
+  ],
+  "forks_note": "forks are listed by GitHub repository id; their owners are third parties and are not named here",
+  "not_in_gh_archive": "No event for repository 218674280 in the GH Archive files for 8 Apr 2020, 09:00 to 23:59 UTC (the hours from the commit's own time to the end of that day).",
+  "forks": [
+    {
+      "repository_id": 239181301,
+      "created_at": "2020-02-08T18:20:03Z",
+      "branch": "master",
+      "head": "c41b3e2f986969bca4d11ac938a183304fdc2889",
+      "videopoker_html_sha256": "f0ef855f2d7e90d97650dc3ce667b85c0fa150eed1ea18b5acbc699058eca1c6"
+    },
+    {
+      "repository_id": 271214553,
+      "created_at": "2020-06-10T07:54:14Z",
+      "branch": "master",
+      "head": "4e6e6e01fa5d3ede403eab2169b1cf2acb9c40ca",
+      "videopoker_html_sha256": "91e1306ba8c5bb76a6d5ee54ba85c613ff4a96ebc7da6a951ba10c611b5db550"
+    },
+    {
+      "repository_id": 440685926,
+      "created_at": "2021-12-22T00:20:23Z",
+      "branch": "master",
+      "head": "1e64d725658a0e2d00d57a45d9006499cd348eb9",
+      "videopoker_html_sha256": "7419f765c9ceecc9d2270da97358154635380a7b86fd883052a86f99c783a2d0"
+    }
+  ]
+}

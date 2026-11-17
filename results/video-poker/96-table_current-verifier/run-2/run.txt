@@ -1,0 +1,62 @@
+VARIANT deck=scrambled hash=verifier draw=sequential arms=1
+ALL_CARDS check: 52 distinct cards, each suit/rank exactly once
+
+== Exact, uniform deck, optimal hold (full enumeration of 2598960 deals x 32 holds)
+paytable {JoB,2P,3K,S,F,FH,4K,SF,RF} = {1,2,3,4,5,8,18,80,800}
+EXACT_OPTIMAL_RTP 0.9597575196
+EXACT_OPTIMAL_RTP_float_table 0.9597575090   sd(optimal EV of dealt hand) 1.361965
+initial-hand class counts (of 2598960):
+  nothing/low pair    2062860  p=0.7937251824
+  jacks or better      337920  p=0.1300212393
+  two pair             123552  p=0.0475390156
+  three of a kind       54912  p=0.0211284514
+  straight              10200  p=0.0039246468
+  flush                  5108  p=0.0019654015
+  full house             3744  p=0.0014405762
+  four of a kind          624  p=0.0002400960
+  straight flush           36  p=0.0000138517
+  royal flush               4  p=0.0000015391
+
+== Simulation arm: BC_VERIFIER_SHUFFLE, n = 100000000 deals (server='pf-audit-history-2', client='pf-audit-client', nonce 0..n-1)
+neighbour pairs per deal (list positions |i-j|=1): mean 0.500710 SE 0.000064 expected 0.384615 ratio 1.3018  z=1814.3
+co-occurrence ratio observed/uniform by list distance d (pairs aggregated over all i<j with j-i=d):
+  d= 1 pairs=51 observed     50071019 expected     38461538.5 ratio 1.3018  z~1879.1
+  d= 2 pairs=50 observed     37650413 expected     37707390.6 ratio 0.9985  z~-9.3
+  d= 3 pairs=49 observed     36494836 expected     36953242.8 ratio 0.9876  z~-75.7
+  d= 4 pairs=48 observed     35725507 expected     36199095.0 ratio 0.9869  z~-79.0
+  d= 5 pairs=47 observed     34988796 expected     35444947.2 ratio 0.9871  z~-76.9
+  d= 6 pairs=46 observed     34240408 expected     34690799.4 ratio 0.9870  z~-76.8
+  d= 7 pairs=45 observed     33504276 expected     33936651.6 ratio 0.9873  z~-74.5
+  d= 8 pairs=44 observed     32756333 expected     33182503.8 ratio 0.9872  z~-74.3
+  d=10 pairs=42 observed     31272957 expected     31674208.1 ratio 0.9873  z~-71.6
+  d=20 pairs=32 observed     23830237 expected     24132730.0 ratio 0.9875  z~-61.8
+  d=30 pairs=22 observed     16390136 expected     16591251.9 ratio 0.9879  z~-49.6
+  d=40 pairs=12 observed      8943297 expected      9049773.8 ratio 0.9882  z~-35.5
+  d=49 pairs= 3 observed      2247865 expected      2262443.4 ratio 0.9936  z~-9.7
+  d=50 pairs= 2 observed      1506071 expected      1508295.6 ratio 0.9985  z~-1.8
+  d=51 pairs= 1 observed       758849 expected       754147.8 ratio 1.0062  z~5.4
+single-pair ratio range: max 1.3110 (pos 0,1) min 0.9831 (pos 37,42); per-pair binomial SE of ratio 0.0011
+initial-hand class frequency vs exact:
+  nothing/low pair   observed 0.79662824 exact 0.79372518 ratio 1.0037  z=+71.7  (count 79662824)
+  jacks or better    observed 0.12915810 exact 0.13002124 ratio 0.9934  z=-25.7  (count 12915810)
+  two pair           observed 0.04669242 exact 0.04753902 ratio 0.9822  z=-39.8  (count 4669242)
+  three of a kind    observed 0.02035584 exact 0.02112845 ratio 0.9634  z=-53.7  (count 2035584)
+  straight           observed 0.00383736 exact 0.00392465 ratio 0.9778  z=-14.0  (count 383736)
+  flush              observed 0.00171038 exact 0.00196540 ratio 0.8702  z=-57.6  (count 171038)
+  full house         observed 0.00138356 exact 0.00144058 ratio 0.9604  z=-15.0  (count 138356)
+  four of a kind     observed 0.00022062 exact 0.00024010 ratio 0.9189  z=-12.6  (count 22062)
+  straight flush     observed 0.00001198 exact 0.00001385 ratio 0.8649  z=-5.0  (count 1198)
+  royal flush        observed 0.00000150 exact 0.00000154 ratio 0.9746  z=-0.3  (count 150)
+DEAL_ONLY_RTP (optimal uniform-deck hold EV of the dealt hand, uniform draws): 0.949572 SE 0.000134  delta vs exact -1.0185 pt (-76.2 SE)
+FULL_PLAY_RTP (uniform-optimal hold, draws = shuffled cards 6..10 left to right): 0.944645 SE 0.000427  delta vs exact -1.5112 pt (-35.4 SE)
+final-hand class frequency:
+  nothing/low pair   0.54764971
+  jacks or better    0.21601967
+  two pair           0.12868390
+  three of a kind    0.07288192
+  straight           0.01106380
+  flush              0.01000794
+  full house         0.01131765
+  four of a kind     0.00224734
+  straight flush     0.00010435
+  royal flush        0.00002372

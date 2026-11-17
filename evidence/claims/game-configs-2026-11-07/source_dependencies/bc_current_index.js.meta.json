@@ -1,0 +1,29 @@
+{
+  "requested_url": "https://bc.game/assets/index--wYtZ7z9.js",
+  "retrieved_utc": "2026-11-07T15:02:49.821137+00:00",
+  "status": 200,
+  "final_url": "https://bc.game/assets/index--wYtZ7z9.js",
+  "headers": {
+    "Date": "Sat, 07 Nov 2026 15:02:50 GMT",
+    "Content-Type": "text/javascript",
+    "Content-Length": "662531",
+    "Connection": "close",
+    "CF-Ray": "a56d38a83c80f80e-YYZ",
+    "CF-Cache-Status": "HIT",
+    "Accept-Ranges": "bytes",
+    "Age": "106336",
+    "Cache-Control": "public, max-age=31556952, immutable",
+    "ETag": "\"95edc7cd0937e84204ee8c4c9ff41418\"",
+    "Last-Modified": "Fri, 06 Nov 2026 09:26:18 GMT",
+    "Server": "cloudflare",
+    "Vary": "accept-encoding",
+    "x-amz-id-2": "n369v8W9vSexMEioua4rvvO87qwpckt+XWYlOxurL+zh9jaFHY6+s9bR36BND2qOszlS25ZdBFXqRE1VicuWRUo8TUuESN2q",
+    "x-amz-request-id": "DTS7MWNENKWE33QD",
+    "x-amz-server-side-encryption": "AES256",
+    "Strict-Transport-Security": "max-age=15552000; includeSubDomains; preload",
+    "X-Content-Type-Options": "nosniff",
+    "Server-Timing": "cfCacheStatus;desc=\"HIT\""
+  },
+  "sha256": "02fc499b7f486480f334b0b586b97b4b9493f673809d99b32f5e2359a2852bff",
+  "bytes": 662531
+}

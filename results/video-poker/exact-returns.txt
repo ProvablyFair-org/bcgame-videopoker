@@ -1,0 +1,6 @@
+Exact return with the optimal fair-deck strategy on a fairly shuffled deck (src/vpsim.c, full enumeration)
+
+98% game (VideoPoker98, live now)            paytable 800/80/22/8/6/4/3/2/1  98.01941005%
+99% game (VideoPoker)                        paytable 800/60/22/9/6/4/3/2/1  98.94447794%
+96% game (VideoPoker96, Nov 2026 table)      paytable 800/80/18/8/5/4/3/2/1  95.97575196%
+9/6 Jacks or Better, textbook check          paytable 800/50/25/9/6/4/3/2/1  99.54390437%

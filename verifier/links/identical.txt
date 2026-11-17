@@ -1,0 +1,5 @@
+The video poker verifier file is byte-identical in all three places below (sha256 50db94e0d86abe9a99a890e1053fad9ae6eb0842fa6c9e380163748225e8c119).
+
+50db94e0d86abe9a99a890e1053fad9ae6eb0842fa6c9e380163748225e8c119  https://game-verify.github.io/public/videopoker.html  (what BC's game links today; fetched 2026-11-05)
+50db94e0d86abe9a99a890e1053fad9ae6eb0842fa6c9e380163748225e8c119  https://bcgame-project.github.io/verify/videopoker.html  (what BC's game linked in April 2022 and February 2025; fetched 2026-11-05)
+50db94e0d86abe9a99a890e1053fad9ae6eb0842fa6c9e380163748225e8c119  https://github.com/bc-game-project/verify/blob/e78221be44219c4c6b9b78fa195d758f57492987/videopoker.html  (commit of 2021-12-24)

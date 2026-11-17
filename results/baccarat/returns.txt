@@ -1,0 +1,33 @@
+python3 src/baccarat_sim.py 40000000 40000000 2
+generated 2026-11-17T08:32:46Z; runtimes (s): {'exact_4_shoes': 8.0, 'bc_deal': 525.7, 'control': 64.1}
+
+ASSUMPTIONS: payouts: the server's odds; a tie pays a player or banker bet 0.9908 of the stake (paid on the live tie rounds of 16 Nov); pair = first two cards of that hand have the same rank (as on all 150 live rounds of 16 Nov); the BC deal is the published verifier's deal, which the live game matched on all 150 rounds of 16 Nov
+
+Outcome probabilities (%)
+              exact 1 deck      exact 2      exact 6      exact 8 | BC deal (95% CI), n=40000000 | control (95% CI), n=40000000
+player           44.676043    44.650815    44.627857    44.624661 |   44.8080 ( 44.7926.. 44.8234) |   44.6646 ( 44.6492.. 44.6800)
+banker           45.962416    45.907273    45.865272    45.859742 |   45.7697 ( 45.7543.. 45.7851) |   45.9006 ( 45.8851.. 45.9160)
+tie               9.361541     9.441911     9.506871     9.515597 |    9.4223 (  9.4132..  9.4313) |    9.4349 (  9.4258..  9.4439)
+player_pair       5.882353     6.796117     7.395498     7.469880 |    6.4870 (  6.4794..  6.4946) |    6.7924 (  6.7846..  6.8002)
+banker_pair       5.882353     6.796117     7.395498     7.469880 |    6.8439 (  6.8361..  6.8517) |    6.8005 (  6.7927..  6.8083)
+player_third     50.175270    50.268957    50.333247    50.341377 |   50.2237 ( 50.2082.. 50.2392) |   50.2621 ( 50.2466.. 50.2776)
+banker_third     43.274889    43.426116    43.527763    43.540508 |   43.3129 ( 43.2975.. 43.3282) |   43.4270 ( 43.4116.. 43.4423)
+
+Control agreement rule (each frequency within 3 SE of the exact 2-deck value): PASS
+   player       z = +1.75
+   banker       z = -0.85
+   tie          z = -1.53
+   player_pair  z = -0.94
+   banker_pair  z = +1.09
+
+server table check: equal to the odds in the init answers of evidence/baccarat-2026-11-16/game-frames.json
+
+Returns (%), the server's odds for BaccaratSingle98
+   a tie pays a player or banker bet: 0.9908 of the stake
+   source: the odds BC's server sent for BaccaratSingle98 on 16 Nov 2026 (answer to init, namespace /g/baccarats/98, evidence/baccarat-2026-11-16/game-frames.json): playerBigBankerOdds 1.9817, bankerBigPlayerOdds 1.9322, tieOdds 8.918, pairOdds 11.8907, playerTieOdds = bankerTieOdds = 0.9908; each paid on the live rounds
+   bet             pays    exact 1    exact 2    exact 6    exact 8 | BC deal (95% CI)               | control (95% CI)               | BC deal minus exact 2 decks, points
+   player        1.9817    97.8099    97.8396    97.8584    97.8607 |   98.132 (  98.102..  98.161) |   97.860 (  97.831..  97.889) | +0.292
+   banker        1.9322    98.0840    98.0571    98.0403    98.0382 |   97.772 (  97.743..  97.800) |   98.037 (  98.009..  98.066) | -0.285
+   tie            8.918    83.4862    84.2030    84.7823    84.8601 |   84.028 (  83.947..  84.109) |   84.140 (  84.059..  84.221) | -0.175
+   player_pair  11.8907    69.9453    80.8106    87.9377    88.8221 |   77.135 (  77.044..  77.226) |   80.766 (  80.673..  80.859) | -3.676
+   banker_pair  11.8907    69.9453    80.8106    87.9377    88.8221 |   81.379 (  81.286..  81.472) |   80.862 (  80.770..  80.955) | +0.568

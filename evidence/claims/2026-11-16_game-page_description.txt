@@ -1,0 +1,66 @@
+- 'heading "Video Poker: Game Review & Theme" [level=2]':
+  - strong: "Video Poker: Game Review & Theme"
+- paragraph
+- paragraph
+- paragraph: "For tactical players who prefer skill and strategy over blind luck, Video Poker delivers a flawless, digital modern take on the casino classic. Stripping away the chaotic visual noise of modern video slots, this home-grown title focuses entirely on what matters most: your cards and your strategy."
+- paragraph
+- paragraph: The game’s aesthetic is beautifully minimalist, utilizing an uncluttered, sleek interface that encourages absolute immersion. By deliberately omitting distracting animations and heavy soundtracks, the design creates a hyper-focused environment. It feels less like a loud slot machine and more like a high-stakes, private card room where players can calculate odds and execute optimal poker decisions without any outside sensory interference.
+- paragraph
+- paragraph
+- paragraph: 【The Layout】
+- paragraph
+- paragraph: The screen cleanly displays the full paytable across nine distinct hands,
+- paragraph: ensuring players can instantaneously cross-reference the strength of their
+- paragraph: potential combinations with their potential payouts in real-time.
+- paragraph
+- paragraph
+- heading "Gameplay and Mechanics" [level=3]:
+  - strong: Gameplay and Mechanics
+- paragraph
+- paragraph
+- paragraph:
+  - strong: "["
+  - text: GAMENAME] is a digital adaptation of the timeless standard five-card draw poker, played with a single, fresh 52-card deck per round. Unlike completely randomized luck games, it rewards calculated decision-making, offering one of the highest mathematical Return-to-Player (RTP) percentages in the online gaming market.
+- paragraph
+- paragraph
+- paragraph: "The gaming loop is incredibly streamlined and structured as follows:"
+- list:
+  - strong: "Place Your Bet: Players first select their stakes, utilizing a massive, flexible betting range starting from a microscopic $0.0001 up to competitive high-roller caps."
+  - strong: "The Deal: Upon hitting the 'BET' button, the engine deals five face-up cards onto the felt."
+  - strong: "The Hold & Draw Phase: Players analyze the initial combination and decide which cards to \"Hold\" and which ones to discard."
+  - strong: "The Final Hand: Hitting the button again discards the unselected cards, replacing them with fresh ones from the deck to form the definitive five-card poker hand. If the hand qualifies on the paytable, you win!"
+- paragraph
+- paragraph
+- heading "Bet Limits and Payouts" [level=3]:
+  - strong: Bet Limits and Payouts
+- paragraph
+- paragraph
+- paragraph: With stakes starting at just $0.0001, the game is exceptionally accessible to casual players testing out betting systems. Conversely, the unrestricted max bet ceiling makes it an incredibly attractive playground for seasoned VIP whales looking to deploy aggressive strategies.
+- paragraph
+- paragraph: "The game utilizes a classic Jacks or Better foundation, rewarding players across nine distinct winning hand tiers. Payouts scale linearly based on the difficulty of forming the hand:"
+- list:
+  - listitem: "Base-Game Sustenance (1x to 9x): Hands like Jacks or Better, Two Pair, Three of a Kind, Straight, Flush, and Full House trigger consistent, steady payouts. These frequent hits are vital for maintaining your bankroll during extended sessions."
+  - listitem: "Premium Strikes (22x to 60x): Hitting a Four of a Kind or a Straight Flush offers a serious boost to your active balance."
+  - listitem: "The Ultimate Grand Prize (800x): The absolute pinnacle of the paytable is the rare and coveted Royal Flush, yielding an outstanding 800x multiplier on your total stake."
+- paragraph
+- paragraph
+- heading "Unique Features & Verdict" [level=3]:
+  - strong: Unique Features & Verdict
+- paragraph
+- paragraph
+- paragraph:
+  - strong: 1. Built-in AI Hint Feature
+- paragraph
+- paragraph: The absolute crown jewel of Video Poker is its intelligent AI Hint toggle. When enabled, the software automatically analyzes your initial five face-up cards and highlights the mathematically optimal cards to keep based on perfect video poker strategy. This feature bridges the gap instantly—acting as an invaluable training tool for novices while speeding up the gameplay for pros.
+- paragraph
+- paragraph
+- paragraph:
+  - strong: 2. Low Volatility, Strategy-Driven Edge
+- paragraph
+- paragraph: Unlike standard slots that drain bankrolls via high volatility, this game offers balanced, predictable mathematical behavior. Because you have direct agency over which cards to swap, your poker prowess and strategic discipline directly impact your win rate, mitigating pure house edge.
+- paragraph
+- paragraph
+- heading "Final Verdict" [level=2]:
+  - strong: Final Verdict
+- paragraph
+- paragraph: Video Poker perfectly captures the formula of "Easy to learn, hard to master." By combining an elegant minimalist interface with the revolutionary AI Hint feature, it transforms a vintage casino staple into a premium, crypto-friendly powerhouse. Whether you are grinding out small margins using perfect strategy or hunting that elusive 800x Royal Flush, this title is a mandatory addition to your betting rotation.

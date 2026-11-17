@@ -1,0 +1,1 @@
+PAYTABLE=1,2,3,4,6,9,22,60,800 VP_DECK=suit VP_HASH=plain2019 VP_SERVER=pf-audit-history-1 VP_ARMS=1 ./build/vpsim 100000000 <threads> <outdir>

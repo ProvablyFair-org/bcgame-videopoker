@@ -1,0 +1,11 @@
+{
+ "what": "A player's video poker bet of 3 July 2024 (four of a kind, 22x), as BC's own share API returns it, seeds revealed.",
+ "bc_api_url": "https://bc.game/api/game/support/share-v3/info/detail/1228WDV7FXKRSZ/",
+ "share_url": "https://hash.game/#/sd/1228WDV7FXKRSZ",
+ "posted_on_bc_forum": "https://forum.bc.game/topic/15992-forum-daily-challenges-650/#findComment-121955",
+ "api_retrieved_utc": "2026-11-16T16:44:10.733868+00:00",
+ "api_response_sha256_before_redaction": "549ea0d4e528b226f7f877903691a018c796c9f1fc13c16f279498f2825e0a05",
+ "redaction": "The player's user id and nickname are replaced by REDACTED. The client seed is the player's own text and is kept, because the cards cannot be checked without it.",
+ "bet_time_utc": "2024-07-03T07:39:10.745Z",
+ "game": "VideoPoker (the 99% game; the 96% game only appears in 2025)"
+}

@@ -1,0 +1,469 @@
+{
+  "method": "Exact captured public custom socket parser, ResultObj protobuf decoder, and SingleGame.Init/GameConfig protobuf decoders; raw received frames independently decoded. No network.",
+  "sources": {
+    "runtime": {
+      "path": "source_dependencies/bc_current_games_manifest.js",
+      "sha256": "7d72ad13a4c6eb6fe1609d879119284f8368a90391ec23769a68fb60ff2447af"
+    },
+    "schema": {
+      "path": "source_dependencies/bc_current_GamePageData-BHVZh_Si.js",
+      "sha256": "41c73ea97a45f8ca7b7ff4726e2a126164e93523cf309b0c43e9987ecf22c114"
+    },
+    "socket": {
+      "path": "source_dependencies/bc_current_index.js",
+      "sha256": "02fc499b7f486480f334b0b586b97b4b9493f673809d99b32f5e2359a2852bff"
+    },
+    "labels": {
+      "path": "source_dependencies/bc_current_vp_index-CLrD9Klk.js",
+      "sha256": "5ee431b17e51bcfc8fb4bcbb5b214cc89b1d53e4f0aef0de231f5e34105bed54"
+    }
+  },
+  "extractedCodeSha256": {
+    "runtime": "a9acc6b79277588d5e0969fe90dd0c83472fbe831920b699ebfa56fa0d4226ea",
+    "schema": "934eac6eadca9c09ef46f300e00199824028be70d2e14719bd1afeb7fc8fbd49",
+    "envelope": "4bdd41c76fdb441b1b31bb089618145c2ddbda3c60447bd71764f76234d3daea",
+    "parser": "7ef43535092c97b9fab8f96eefb07e571f0951c92333ee8c50e4d648aeb1c108"
+  },
+  "longConfiguration": "Optional Long implementation is null; runtime uses native numeric fallback. Relevant fields are strings,32-bit integers and booleans.",
+  "labelMappingExtractedFromSource": [
+    {
+      "label": "Royal flush",
+      "index": 9
+    },
+    {
+      "label": "Straight Flush",
+      "index": 8
+    },
+    {
+      "label": "4 of a Kind",
+      "index": 7
+    },
+    {
+      "label": "Full House",
+      "index": 6
+    },
+    {
+      "label": "Flush",
+      "index": 5
+    },
+    {
+      "label": "Straight",
+      "index": 4
+    },
+    {
+      "label": "3 of a Kind",
+      "index": 3
+    },
+    {
+      "label": "2 Pairs",
+      "index": 2
+    },
+    {
+      "label": "Jacks or Better",
+      "index": 1
+    }
+  ],
+  "versionCorrection": "Initial probe captures stored raw protobuf varints for version. Public schema declares sint32, so raw4 is version2 and raw6 is version3. Raw originals are retained unchanged; this report gives correctly decoded values.",
+  "results": [
+    {
+      "file": "socket_init_g_vp_96.json",
+      "captureSha256": "cfff8696379d9bc6f6455327ac5a278899cb38f59278567fdfa406121e72cec8",
+      "startedAt": "2026-11-07T15:41:47.046Z",
+      "namespace": "/g/vp/96",
+      "outgoingOperations": [
+        "namespace connect",
+        "init"
+      ],
+      "onlyConnectAndInit": true,
+      "resultCode": 0,
+      "resultMessage": "",
+      "payloadSha256": "00916e072b6b00c91bd3886ab4f523b8110b5e057ac5593cd89dde7ecd7c656b",
+      "gameConfig": [
+        {
+          "gameName": "VideoPoker96",
+          "namespace": "/g/vp/96",
+          "version": 2,
+          "rtp": "0.96",
+          "isSingle": true,
+          "isDelete": false,
+          "payTable": {
+            "0": 0,
+            "1": 1,
+            "2": 2,
+            "3": 3,
+            "4": 4,
+            "5": 5,
+            "6": 8,
+            "7": 18,
+            "8": 80,
+            "9": 800
+          },
+          "orderedPaytable": [
+            800,
+            80,
+            18,
+            8,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "rows": [
+            {
+              "index": 0,
+              "label": "No win",
+              "payout": 0
+            },
+            {
+              "index": 1,
+              "label": "Jacks or better",
+              "payout": 1
+            },
+            {
+              "index": 2,
+              "label": "Two pairs",
+              "payout": 2
+            },
+            {
+              "index": 3,
+              "label": "Three of a kind",
+              "payout": 3
+            },
+            {
+              "index": 4,
+              "label": "Straight",
+              "payout": 4
+            },
+            {
+              "index": 5,
+              "label": "Flush",
+              "payout": 5
+            },
+            {
+              "index": 6,
+              "label": "Full house",
+              "payout": 8
+            },
+            {
+              "index": 7,
+              "label": "Four of a kind",
+              "payout": 18
+            },
+            {
+              "index": 8,
+              "label": "Straight flush",
+              "payout": 80
+            },
+            {
+              "index": 9,
+              "label": "Royal flush",
+              "payout": 800
+            }
+          ]
+        }
+      ],
+      "payoutStringsAgreeWithProbe": true
+    },
+    {
+      "file": "socket_init_g_vp_96_p.json",
+      "captureSha256": "87c4d09277a293fc135f4b7f63c34d152ebfc98113f798c802e42f2fa9d0c0ab",
+      "startedAt": "2026-11-07T15:41:51.009Z",
+      "namespace": "/g/vp/96/p",
+      "outgoingOperations": [
+        "namespace connect",
+        "init"
+      ],
+      "onlyConnectAndInit": true,
+      "resultCode": 0,
+      "resultMessage": "",
+      "payloadSha256": "a92e5c3c259a168611052da5a9dcd0d6c57fddc3bc680697528f79237d693649",
+      "gameConfig": [
+        {
+          "gameName": "VideoPoker96P",
+          "namespace": "/g/vp/96/p",
+          "version": 3,
+          "rtp": "0.96",
+          "isSingle": true,
+          "isDelete": false,
+          "payTable": {
+            "0": 0,
+            "1": 1,
+            "2": 2,
+            "3": 3,
+            "4": 4,
+            "5": 5,
+            "6": 8,
+            "7": 18,
+            "8": 80,
+            "9": 800
+          },
+          "orderedPaytable": [
+            800,
+            80,
+            18,
+            8,
+            5,
+            4,
+            3,
+            2,
+            1
+          ],
+          "rows": [
+            {
+              "index": 0,
+              "label": "No win",
+              "payout": 0
+            },
+            {
+              "index": 1,
+              "label": "Jacks or better",
+              "payout": 1
+            },
+            {
+              "index": 2,
+              "label": "Two pairs",
+              "payout": 2
+            },
+            {
+              "index": 3,
+              "label": "Three of a kind",
+              "payout": 3
+            },
+            {
+              "index": 4,
+              "label": "Straight",
+              "payout": 4
+            },
+            {
+              "index": 5,
+              "label": "Flush",
+              "payout": 5
+            },
+            {
+              "index": 6,
+              "label": "Full house",
+              "payout": 8
+            },
+            {
+              "index": 7,
+              "label": "Four of a kind",
+              "payout": 18
+            },
+            {
+              "index": 8,
+              "label": "Straight flush",
+              "payout": 80
+            },
+            {
+              "index": 9,
+              "label": "Royal flush",
+              "payout": 800
+            }
+          ]
+        }
+      ],
+      "payoutStringsAgreeWithProbe": true
+    },
+    {
+      "file": "socket_init_g_vp_98.json",
+      "captureSha256": "b69a721d07e41c2b5339d2ea1381bba0feaf662f279398256a5d97c8f0402c15",
+      "startedAt": "2026-11-07T15:41:24.800Z",
+      "namespace": "/g/vp/98",
+      "outgoingOperations": [
+        "namespace connect",
+        "init"
+      ],
+      "onlyConnectAndInit": true,
+      "resultCode": 0,
+      "resultMessage": "",
+      "payloadSha256": "7579d018de1fc0750418287b721635672ae6da0ff60a9b21e9fc7df6ba4cdfe8",
+      "gameConfig": [
+        {
+          "gameName": "VideoPoker98",
+          "namespace": "/g/vp/98",
+          "version": 2,
+          "rtp": "0.98",
+          "isSingle": true,
+          "isDelete": false,
+          "payTable": {
+            "0": 0,
+            "1": 1,
+            "2": 2,
+            "3": 3,
+            "4": 4,
+            "5": 6,
+            "6": 8,
+            "7": 22,
+            "8": 80,
+            "9": 800
+          },
+          "orderedPaytable": [
+            800,
+            80,
+            22,
+            8,
+            6,
+            4,
+            3,
+            2,
+            1
+          ],
+          "rows": [
+            {
+              "index": 0,
+              "label": "No win",
+              "payout": 0
+            },
+            {
+              "index": 1,
+              "label": "Jacks or better",
+              "payout": 1
+            },
+            {
+              "index": 2,
+              "label": "Two pairs",
+              "payout": 2
+            },
+            {
+              "index": 3,
+              "label": "Three of a kind",
+              "payout": 3
+            },
+            {
+              "index": 4,
+              "label": "Straight",
+              "payout": 4
+            },
+            {
+              "index": 5,
+              "label": "Flush",
+              "payout": 6
+            },
+            {
+              "index": 6,
+              "label": "Full house",
+              "payout": 8
+            },
+            {
+              "index": 7,
+              "label": "Four of a kind",
+              "payout": 22
+            },
+            {
+              "index": 8,
+              "label": "Straight flush",
+              "payout": 80
+            },
+            {
+              "index": 9,
+              "label": "Royal flush",
+              "payout": 800
+            }
+          ]
+        }
+      ],
+      "payoutStringsAgreeWithProbe": true
+    },
+    {
+      "file": "socket_init_g_vp_main.json",
+      "captureSha256": "f92506d9a6dcc6c7081d4eb67161b2a3983cf99b15057f27b49e5ed490990286",
+      "startedAt": "2026-11-07T15:43:43.122Z",
+      "namespace": "/g/vp/main",
+      "outgoingOperations": [
+        "namespace connect",
+        "init"
+      ],
+      "onlyConnectAndInit": true,
+      "resultCode": 0,
+      "resultMessage": "",
+      "payloadSha256": "ed458eec2abedcddb961e467278fbdeb7b614491abb75e3283f5c00133d3c1b5",
+      "gameConfig": [
+        {
+          "gameName": "VideoPoker",
+          "namespace": "/g/vp/main",
+          "version": 2,
+          "rtp": "0.99",
+          "isSingle": true,
+          "isDelete": true,
+          "payTable": {
+            "0": 0,
+            "1": 1,
+            "2": 2,
+            "3": 3,
+            "4": 4,
+            "5": 6,
+            "6": 9,
+            "7": 22,
+            "8": 60,
+            "9": 800
+          },
+          "orderedPaytable": [
+            800,
+            60,
+            22,
+            9,
+            6,
+            4,
+            3,
+            2,
+            1
+          ],
+          "rows": [
+            {
+              "index": 0,
+              "label": "No win",
+              "payout": 0
+            },
+            {
+              "index": 1,
+              "label": "Jacks or better",
+              "payout": 1
+            },
+            {
+              "index": 2,
+              "label": "Two pairs",
+              "payout": 2
+            },
+            {
+              "index": 3,
+              "label": "Three of a kind",
+              "payout": 3
+            },
+            {
+              "index": 4,
+              "label": "Straight",
+              "payout": 4
+            },
+            {
+              "index": 5,
+              "label": "Flush",
+              "payout": 6
+            },
+            {
+              "index": 6,
+              "label": "Full house",
+              "payout": 9
+            },
+            {
+              "index": 7,
+              "label": "Four of a kind",
+              "payout": 22
+            },
+            {
+              "index": 8,
+              "label": "Straight flush",
+              "payout": 60
+            },
+            {
+              "index": 9,
+              "label": "Royal flush",
+              "payout": 800
+            }
+          ]
+        }
+      ],
+      "payoutStringsAgreeWithProbe": true
+    }
+  ]
+}

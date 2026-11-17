@@ -1,0 +1,7 @@
+repository,commit,date_utc,message,videopoker_html_sha256,copy_in_this_package
+https://github.com/bc-game-project/verify,385651dc485d00b44aed498899bfff4f5b39db36,2019-11-14T09:55:20Z,videopoker videopoker,f0ef855f2d7e90d97650dc3ce667b85c0fa150eed1ea18b5acbc699058eca1c6,verifier/versions/2019-11-14_videopoker.html
+https://github.com/bc-game-project/verify,cb2be877a5d52bd347558af80edd3c0a5086321a,2020-04-08T09:46:11Z,init init,91e1306ba8c5bb76a6d5ee54ba85c613ff4a96ebc7da6a951ba10c611b5db550,verifier/versions/2020-04-08_videopoker.html
+https://github.com/bc-game-project/verify,1e64d725658a0e2d00d57a45d9006499cd348eb9,2021-12-21T12:10:31Z,fix FIX,7419f765c9ceecc9d2270da97358154635380a7b86fd883052a86f99c783a2d0,verifier/versions/2021-12-21_videopoker.html
+https://github.com/bc-game-project/verify,e78221be44219c4c6b9b78fa195d758f57492987,2021-12-24T03:24:14Z,FIX bug FIX bug,50db94e0d86abe9a99a890e1053fad9ae6eb0842fa6c9e380163748225e8c119,verifier/versions/2021-12-24_videopoker.html
+https://github.com/bcgame-project/verify,960648c9fee29aff471f1c1589ea22f3c3c0fb82,2022-05-13T12:42:28Z,Add files via upload,50db94e0d86abe9a99a890e1053fad9ae6eb0842fa6c9e380163748225e8c119,
+https://github.com/game-verify/public,494ad628870eb5c1ef3253c7867de257b136ee21,2025-12-30T08:42:05Z,first commit,50db94e0d86abe9a99a890e1053fad9ae6eb0842fa6c9e380163748225e8c119,

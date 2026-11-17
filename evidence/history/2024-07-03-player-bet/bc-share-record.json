@@ -1,0 +1,70 @@
+{
+ "code": 0,
+ "msg": null,
+ "data": {
+  "gameUnique": "video-poker",
+  "nickName": "REDACTED",
+  "userId": "REDACTED",
+  "version": 3,
+  "gameType": 0,
+  "gameData": {
+   "betLog": {
+    "betId": "876373804572475407",
+    "userId": "REDACTED",
+    "seedId": 204046677,
+    "nonce": 15,
+    "currencyName": "BCD",
+    "distributeId": "1803542701140822021",
+    "betAmount": "0.15",
+    "winAmount": "3.3",
+    "userName": "REDACTED",
+    "gameName": "VideoPoker",
+    "fullName": null,
+    "type": "",
+    "gameId": "204046677",
+    "odds": 220000,
+    "oddsString": "22",
+    "time": 1719992350745,
+    "extData": null,
+    "bv": null,
+    "gv": {
+     "initialHard": [
+      165,
+      180,
+      181,
+      213,
+      197,
+      211,
+      212,
+      209,
+      205,
+      161
+     ],
+     "playerHard": [
+      165,
+      211,
+      181,
+      213,
+      197
+     ],
+     "holdHard": [
+      165,
+      181,
+      213,
+      197
+     ],
+     "result": 7,
+     "active": 2
+    }
+   },
+   "seedHistory": {
+    "serverSeed": "843c51c218bb131a152f49c038758a1959a6f4775dee291efb7f8d26df03915b",
+    "clientSeed": "KristalinaQ",
+    "serverSeedHash": "10d28a4384d60da7339a57b26100b1ec89177195c0144c911cbd722c713cd5e1",
+    "maxNonce": 16
+   }
+  },
+  "shortUrl": "https://bc.game/videopoker/0CKG1RNMHOR1I1/single",
+  "gameChannel": null
+ }
+}

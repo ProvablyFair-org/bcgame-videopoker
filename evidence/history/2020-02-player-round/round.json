@@ -1,0 +1,106 @@
+{
+ "what": "A player's video poker round posted on BC's own forum, with the seeds shown in BC's betting window.",
+ "source_post": "https://forum.bc.game/topic/415-royal-flush/#findComment-2339",
+ "source_post_archive": "https://archive.ph/mAgrj",
+ "post_created_utc": "2020-02-07T08:33:44Z",
+ "images": [
+  {
+   "file": "forum-post-2339_image1.png",
+   "source_url": "https://forum.bc.game/uploads/monthly_2020_02/1277070773_ScreenShot2020-02-07at12_22_47AM.png.a3a18f61b31ecef6ecb957e3f77e8e32.png",
+   "archive": "https://archive.ph/sQevt",
+   "sha256": "f007db12be5e10671ff2e287f977ce93974a0fcb0d693c40509a0bf5ff0834e5",
+   "http_last_modified": "Fri, 07 Feb 2020 08:33:13 GMT"
+  },
+  {
+   "file": "forum-post-2339_image2.png",
+   "source_url": "https://forum.bc.game/uploads/monthly_2020_02/1638597352_ScreenShot2020-02-07at12_23_40AM.png.cfbb6487c5f3a25b6335a22978339ea4.png",
+   "archive": "",
+   "sha256": "7662583ec986c327db0a09065f6306f73aafb9e82e660dc997020204ab025d6b",
+   "http_last_modified": "Fri, 07 Feb 2020 08:33:15 GMT"
+  },
+  {
+   "file": "forum-post-2339_image3.png",
+   "source_url": "https://forum.bc.game/uploads/monthly_2020_02/462920990_ScreenShot2020-02-07at12_29_55AM.png.a426a91b677c1878ed2606550f01a25a.png",
+   "archive": "https://archive.ph/StyUP",
+   "sha256": "0ba6ec9194fd1629e66ba56e52964c0eaae3541ac383bd33eafdab3a257558d9",
+   "http_last_modified": "Fri, 07 Feb 2020 08:33:18 GMT"
+  }
+ ],
+ "server_seed_visible": "12a84f162de47047bcd023d9e20a976abdb36a3739d184d192aca528958",
+ "server_seed_hidden_characters": 5,
+ "server_seed_hash_visible": "21a1b82ac2f6346e9fb88dd7ed438512f72bbbc25a255468b2cb32f5966f",
+ "client_seed_readings": [
+  "HOqA9T3PgAII7kQhwjNBLONw3HYgkxgK",
+  "HOqA9T3PgAII7kQhwjNBL0Nw3HYgkxgK",
+  "HOqA9T3PgAIl7kQhwjNBLONw3HYgkxgK",
+  "HOqA9T3PgAIl7kQhwjNBL0Nw3HYgkxgK",
+  "HOqA9T3PgAI17kQhwjNBLONw3HYgkxgK",
+  "HOqA9T3PgAI17kQhwjNBL0Nw3HYgkxgK",
+  "HOqA9T3PgAlI7kQhwjNBLONw3HYgkxgK",
+  "HOqA9T3PgAlI7kQhwjNBL0Nw3HYgkxgK",
+  "HOqA9T3PgAll7kQhwjNBLONw3HYgkxgK",
+  "HOqA9T3PgAll7kQhwjNBL0Nw3HYgkxgK",
+  "HOqA9T3PgAl17kQhwjNBLONw3HYgkxgK",
+  "HOqA9T3PgAl17kQhwjNBL0Nw3HYgkxgK",
+  "HOqA9T3PgA1I7kQhwjNBLONw3HYgkxgK",
+  "HOqA9T3PgA1I7kQhwjNBL0Nw3HYgkxgK",
+  "HOqA9T3PgA1l7kQhwjNBLONw3HYgkxgK",
+  "HOqA9T3PgA1l7kQhwjNBL0Nw3HYgkxgK",
+  "HOqA9T3PgA117kQhwjNBLONw3HYgkxgK",
+  "HOqA9T3PgA117kQhwjNBL0Nw3HYgkxgK",
+  "H0qA9T3PgAII7kQhwjNBLONw3HYgkxgK",
+  "H0qA9T3PgAII7kQhwjNBL0Nw3HYgkxgK",
+  "H0qA9T3PgAIl7kQhwjNBLONw3HYgkxgK",
+  "H0qA9T3PgAIl7kQhwjNBL0Nw3HYgkxgK",
+  "H0qA9T3PgAI17kQhwjNBLONw3HYgkxgK",
+  "H0qA9T3PgAI17kQhwjNBL0Nw3HYgkxgK",
+  "H0qA9T3PgAlI7kQhwjNBLONw3HYgkxgK",
+  "H0qA9T3PgAlI7kQhwjNBL0Nw3HYgkxgK",
+  "H0qA9T3PgAll7kQhwjNBLONw3HYgkxgK",
+  "H0qA9T3PgAll7kQhwjNBL0Nw3HYgkxgK",
+  "H0qA9T3PgAl17kQhwjNBLONw3HYgkxgK",
+  "H0qA9T3PgAl17kQhwjNBL0Nw3HYgkxgK",
+  "H0qA9T3PgA1I7kQhwjNBLONw3HYgkxgK",
+  "H0qA9T3PgA1I7kQhwjNBL0Nw3HYgkxgK",
+  "H0qA9T3PgA1l7kQhwjNBLONw3HYgkxgK",
+  "H0qA9T3PgA1l7kQhwjNBL0Nw3HYgkxgK",
+  "H0qA9T3PgA117kQhwjNBLONw3HYgkxgK",
+  "H0qA9T3PgA117kQhwjNBL0Nw3HYgkxgK"
+ ],
+ "client_seed_reading_note": "In the screenshot the letter O and the digit 0, and the letters I, l and the digit 1, look the same in four places, so there are 2 x 3 x 3 x 2 = 36 possible readings.",
+ "nonce": 314,
+ "nonce_label_in_screenshot": "Game Id",
+ "initial_hand": [
+  "Ks",
+  "8h",
+  "2s",
+  "Js",
+  "4d"
+ ],
+ "initial_hand_codes": [
+  173,
+  184,
+  162,
+  171,
+  212
+ ],
+ "player_hand": [
+  "Ks",
+  "4c",
+  "7c",
+  "Js",
+  "2h"
+ ],
+ "player_hand_codes": [
+  173,
+  196,
+  199,
+  171,
+  178
+ ],
+ "replaced_positions": [
+  1,
+  2,
+  4
+ ]
+}

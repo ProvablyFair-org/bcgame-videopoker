@@ -1,0 +1,1 @@
+PAYTABLE=1,2,3,4,6,8,22,80,800 VP_SERVER=e6d56c28a41a23668e2211d8dfd7965134eb9fd13effed8b518719a21c98eddd VP_ARMS=1 ./build/vpsim 100000000 <threads> <outdir>

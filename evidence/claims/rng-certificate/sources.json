@@ -1,0 +1,13 @@
+{
+ "certificate": {
+  "url": "https://www.itechlabs.com/certificates/BCGame/RNG_Certificate_UK_BCGame_ITL2002455_12Oct20.pdf",
+  "retrieved_utc": "2026-11-07T16:14:58Z",
+  "signed": "2020-10-12",
+  "scope_as_printed": "RNG, single-deck and twelve-deck shuffling, scaling for named games. Video Poker is not named; no paytable, RTP or code fingerprint is printed."
+ },
+ "trust_page": {
+  "url": "https://bcgame.com/trust",
+  "retrieved_utc": "2026-11-07T16:14:59Z",
+  "says": "Latest public certificate: Oct 2020. A new certificate is being arranged."
+ }
+}

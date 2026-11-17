@@ -1,0 +1,1 @@
+PAYTABLE=1,2,3,4,6,8,22,80,800 VP_SERVER=pf-audit-server-seed-2026-11-17-1 VP_ARMS=1 ./build/vpsim 100000000 <threads> <outdir>
